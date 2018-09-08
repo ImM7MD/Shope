@@ -6,6 +6,7 @@ const Discord = require('discord.js');
         const sql = require('sqlite')
         const ms = require("ms");
         const Canvas = require('canvas');
+        const hastebin = require('hastebin-gen');
 const { Client, Util } = require('discord.js');
 const { MessageAttachment } = require("discord.js");
 const getYoutubeID = require('get-youtube-id');
@@ -112,7 +113,7 @@ if(ratus.user.id === message.author.id) {
 } else return message.channel.send(`I'd give **__${ratus.user.username}__** ${result}/10 <:thonk:427846193503272960>`);
  }
 });
-const hastebin = require('hastebin-gen');
+
 client.on('message', message => {
 var PREFIX = '+';
     if(message.content.startsWith(PREFIX + 'discrim')) {
