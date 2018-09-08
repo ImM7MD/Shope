@@ -512,4 +512,4 @@ if (message.content.startsWith('+help')) { /// This is The DMS Code Send The Hel
     })
     }
 }); 
-client.login('NDgzMjQwMTY2MzkyMDcwMTQ0.DmQxqg.WpsTUPAymci7iAGULxm0q8vCpmc');
+client.login('process.env.BOT_TOKEN');
