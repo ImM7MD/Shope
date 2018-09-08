@@ -512,4 +512,4 @@ if (message.content.startsWith('+help')) { /// This is The DMS Code Send The Hel
     })
     }
 }); 
-client.login('process.env.BOT_TOKEN');
+client.login(process.env.BOT_TOKEN);
