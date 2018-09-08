@@ -6,7 +6,6 @@ const Discord = require('discord.js');
         const sql = require('sqlite')
         const ms = require("ms");
         const Canvas = require('canvas');
-        const superagent = require('superagent');
 const { Client, Util } = require('discord.js');
 const { MessageAttachment } = require("discord.js");
 const getYoutubeID = require('get-youtube-id');
